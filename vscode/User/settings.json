@@ -1,0 +1,40 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "idf.pythonSystemBinPath": "/usr/local/bin/python3",
+    "idf.espIdfPath": "/Users/goro9/esp/esp-idf",
+    "idf.toolsPath": "/Users/goro9/.espressif",
+    "idf.pythonBinPath": "/Users/goro9/.espressif/python_env/idf3.3_py3.7_env/bin/python",
+    "idf.customExtraPaths": "/Users/goro9/.espressif/python_env/idf3.3_py3.7_env/bin:/usr/local/bin:/Users/goro9/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin:/Users/goro9/.espressif/tools/xtensa-esp32s2-elf/esp32s2-dev-4-g3a626e9-8.2.0/xtensa-esp32s2-elf/bin:/Users/goro9/.espressif/tools/esp32ulp-elf/2.28.51.20170517/esp32ulp-elf-binutils/bin:/Users/goro9/.espressif/tools/openocd-esp32/v0.10.0-esp32-20190708/openocd-esp32/bin",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/Users/goro9/.espressif/tools/openocd-esp32/v0.10.0-esp32-20190708/openocd-esp32/share/openocd/scripts\"}",
+    "idf.showOnboardingOnInit": false,
+    "idf.port": "/dev/cu.usbserial-DN06ABW0",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "cmake.configureOnOpen": false,
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "GitHub Dark",
+    "markdown.preview.fontSize": 12,
+    "python.languageServer": "Microsoft",
+    
+    "vim.useSystemClipboard": true, // システムのクリップボードを利用す
+    "vim.hlsearch": true, // 検索にマッチしたテキストをハイライトする
+    "vim.easymotion": true, // easymotion を有効にする
+    "vim.visualstar": true, // ビジュアルモードで * や # で検索
+    "vim.ignorecase": true, // 検索時に大文字小文字を無視する
+    "vim.incsearch": true, // インクリメンタルサーチ
+    "vim.camelCaseMotion.enable": true, // CamelCaseMotion を有効にする
+    "vim.leader": "\\", // leader キーの設定
+    // キーバインドの設定
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ]
+}
