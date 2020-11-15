@@ -36,5 +36,32 @@
                 "<Esc>"
             ]
         }
-    ]
+    ],
+
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "gopls": {
+        "usePlaceholders": true, // add parameter placeholders when completing a function
+
+        // Experimental settings
+        "completeUnimported": true, // autocomplete unimported packages
+        "watchFileChanges": true,  // watch file changes outside of the editor
+        "deepCompletion": true,     // enable deep completion
+        "staticcheck": false,
+    },
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on",
+    },
 }
